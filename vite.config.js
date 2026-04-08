@@ -5,12 +5,12 @@ export default defineConfig({
   plugins: [react()],
   // Required: Stellar SDK uses Node builtins that need polyfills in the browser
   define: {
-    global: "globalThis",
+    global: {},
   },
   resolve: {
     alias: {
       // Alias Buffer for browser compatibility
-      buffer: "buffer",
+      buffer: "buffer/",
     },
   },
   optimizeDeps: {

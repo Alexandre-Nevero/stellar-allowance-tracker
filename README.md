@@ -151,14 +151,6 @@ Sample response:
 
 ---
 
-## Optional AI Edge (Bonus)
-
-An off-chain Python microservice reads Stellar transaction `memo` fields and classifies each spend as **Essential** (transport / canteen) or **Non-Essential** (milk tea / gaming). At week-end it emails the parent a **Financial Health Grade** (A–F) with a breakdown chart.
-
-> No additional Soroban changes required — the classifier is purely off-chain and reads public ledger data.
-
----
-
 ## License
 
 MIT © 2024 BaonGuard Contributors

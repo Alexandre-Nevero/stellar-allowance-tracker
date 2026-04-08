@@ -29,6 +29,7 @@ target
 # Local environment files
 .env.*
 !.env.example
+backend/.env
 # Dependencies
 node_modules/
 
