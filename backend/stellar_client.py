@@ -14,7 +14,6 @@ from typing import Any
 from dotenv import load_dotenv
 from stellar_sdk import Keypair, Network, TransactionBuilder
 from stellar_sdk import SorobanServer
-from stellar_sdk.contract import ContractClient
 from stellar_sdk.exceptions import PrepareTransactionException
 from stellar_sdk.soroban_rpc import GetTransactionStatus
 from stellar_sdk.xdr import SCVal, SCValType
